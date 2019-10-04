@@ -34,3 +34,5 @@ function Header(arr1) {
     return divHeader;
 
 }
+
+console.log(Header());
