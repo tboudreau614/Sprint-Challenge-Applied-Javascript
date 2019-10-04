@@ -18,4 +18,19 @@ function Header(arr1) {
     const textHeader = document.createElement ('h1');
     const span2Header = document.createElement ('span');
 
+    head.appendChild(divHeader);
+    divHeader.appendChild(spanHeader);
+    divHeader.appendChild(textHeader);
+    divHeader.appendChild(span2Header);
+
+    divHeader.classList.add('header');
+    spanHeader.classList.add('date');
+    span2Header.classList.add('temp');
+
+    spanHeader.textContent = 'SMARCH 28, 2019';
+    textHeader.textContent = 'Lamda Times';
+    span2Header.textContent = '98°';
+
+    return divHeader;
+
 }
