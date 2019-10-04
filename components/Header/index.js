@@ -9,4 +9,13 @@
 //  </div >
 // And add it to the DOM in the .header-container component
 
-function Header() {}
+const head = document.querySelector('.header-container');
+
+function Header(arr1) {
+
+    const divHeader = document.createElement ('div');
+    const spanHeader = document.createElement ('span');
+    const textHeader = document.createElement ('h1');
+    const span2Header = document.createElement ('span');
+
+}
